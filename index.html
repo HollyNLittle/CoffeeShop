@@ -1,64 +1,202 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="StyleSheet.css" rel="stylesheet" />
-    <title>Crazy Bean Juice Cafe</title>
+    <title>Coffee Bean Cafe</title>
     <meta charset="utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico" />
+    <link rel="apple-touch-icon" href="/static/images/touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/images/touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/images/touch-icon-iphone4.png" />
+    <link rel="stylesheet" href="/static/resource/global_css/-254045951_en-US" media="screen, print" />
+
+    <link href='//fonts.googleapis.com/css?family=Lato:400,700|Crete+Round:400,400italic' rel='stylesheet' type='text/css' />
+    <link href="StyleSheet.css" rel="stylesheet" />
+
 </head>
 
 <body>
-    <div class="title">
-        <h1>Crazy Bean Juice Cafe</h1>
-        <img src="images/exterior.jpg" />
+    <header>
+        <h1>Coffee Bean Cafe</h1>
+        <h4>479 Broadview Avenue | 343 King Street East | 568 Jarvis Street</h4>
+    </header>
+    <div id="serving-message-hours">
+        <section id="serving-message">
+            <h2>Serving exclusively...</h2>
+            <h4>products made with love and care using</h4>
+            <h4>carefully selected, organic, non-gmo, fair trade sourced ingredients.</h4>
+        </section>
+        <section id="hours">
+            <ul class="price-box">
+                <li class="header">HOURS</li>
+                <li><strong>MON-THURS </strong>6am - 6pm</li>
+                <li><strong>FRI & SAT </strong>6am - 7pm</li>
+                <li><strong>SUN </strong>6am - 2pm</li>
+                <li>
+                    <p><span class="fa fa-wifi" aria-hidden="true"></span> free Wi-Fi</p>
+                </li>
+            </ul>
+        </section>
     </div>
-    <p>
-        Serve really good coffee and make people happy.
-        That's our mission, come in and taste the difference!
-    </p>
-
-    <div class="header">
-        <h3>Serving exclusively...</h3>
-        <!--<img src="images/coffeeChocolateSwirls.jpeg" />-->
-
-        <p>products made with love and care...</p>
-        <!--<img src="images/tartes.jpg" />-->
-
-        <p>carefully selected, organic and non-gmo ingredients...</p>
-        <!--<img src="images/cinnamonRolls.jpg" />-->
-
-        <p>artisan pastries baked daily in our own kitchen.</p>
-        <!--<img src="images/coffeeRoll.jpeg" />-->
-
-        <p>Great selection of vegan, vegetarian, gluten-free items.</p>
-        <!--<img src="images/coffeeCinnamonCrop.jpg" />-->
+    <div id="information">
+        <h4><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 216-555-5454</h4>
+        <h4><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> greatpastriesfound@coffeebeanhouse.com</h4>
     </div>
 
-    <div class="pictures">
-        <!--<img src="images/coffeeWhipcream.jpg" />-->
-        <h4>Internationally sourced coffees...$5</h4>
+    <section id="getting-here">
+        <div class="cafe-photos">
+            <img src="images/exterior.jpg" />
+        </div>
+        <div id="map">
+            <h4><a href="https://www.google.com/maps/place/190+Broadway+%23102,+Asheville,+NC+28801/@35.6012704,-82.5574858,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f4a973ae0d97:0x365f9e9fe2104c8b!8m2!3d35.6012704!4d-82.5552971" target="_blank"><span class="fa fa-map" aria-hidden="true"></span>  479 Broadview Avenue</a></h4>
+            <h4><a href="https://www.google.com/maps/place/190+Broadway+%23102,+Asheville,+NC+28801/@35.6012704,-82.5574858,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f4a973ae0d97:0x365f9e9fe2104c8b!8m2!3d35.6012704!4d-82.5552971" target="_blank"><span class="fa fa-map" aria-hidden="true"></span>  343 King Street East</a></h4>
+            <h4><a href="https://www.google.com/maps/place/190+Broadway+%23102,+Asheville,+NC+28801/@35.6012704,-82.5574858,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f4a973ae0d97:0x365f9e9fe2104c8b!8m2!3d35.6012704!4d-82.5552971" target="_blank"><span class="fa fa-map" aria-hidden="true"></span>  568 Jarvis Street</a></h4>
+        </div>
+    </section>
 
-        <!--<img src="images/coffeeWithNuts.jpg" />-->
-        <h4>Frappaccinos (cold or hot)...$6</h4>
-
-        <!--<img src="images/cappuccino.jpg" />-->
-        <h4>Chai...$4</h4>
-
-        <!--<img src="images/coffeeShake.jpeg" />-->
-        <h4>Coffee shakes...$7</h4>
+    <div id="all-menu-container">
+        <div class="title">
+            <div id="menu-header">
+                <h1>Menu</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="menu-row">
+                <div class="col-md-4">
+                    <ul class="price-box">
+                        <li class="header">BEVERAGES</li>
+                        <li class="emph"><strong>$1.99</strong></li>
+                        <li><strong></strong>Coffees</li>
+                        <li><strong></strong>Teas</li>
+                        <li><strong></strong>Hot cocoa</li>
+                        <li><strong></strong>Cafe Mocha</li>
+                        <li><strong></strong>Cafe Latte</li>
+                        <li><strong></strong>Cappaccinos</li>
+                        <li><strong></strong>Smoothies</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="price-box">
+                        <li class="header">PASTRIES</li>
+                        <li class="emph"><strong>$3.99</strong></li>
+                        <li><strong></strong>Croissants</li>
+                        <li><strong></strong>Scones</li>
+                        <li><strong></strong>DESSERTS</li>
+                        <li class="emph"><strong>$5.99</strong></li>
+                        <li><strong></strong>Specialty Cakes</li>
+                        <li><strong></strong>Pies</li>
+                        <li><strong></strong>Daily specials</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="price-box">
+                        <li class="header">FOOD</li>
+                        <li class="emph"><strong>$2.99</strong></li>
+                        <li>Bagels</li>
+                        <li class="emph"><strong>$7.99</strong></li>
+                        <li><strong></strong>Sandwiches</li>
+                        <li><strong></strong>Salads</li>
+                        <li><strong></strong>Soups</li>
+                        <li class="emph"><strong>$10.99</strong></li>
+                        <li><strong></strong>COMBOS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    
-    <div class="close">
-        Pride in our coffee is only rivaled by our pride for this great city and we are honored, as a downtown business,
-        to be part of it's renaissance.  Start your day with us and then explore and enjoy all this city has to offer...
+    <div id="menu-parent">
+        <div class="menu-child">
+            <img src="images/herbal-tea-herbs-tee-mint-159203.jpeg" />
+        </div>
+        <div class="menu-child">
+            <img src="images/layer-cake-709841.jpg" />
+        </div>
+        <div class="menu-child">
+            <img src="images/salad-pexels-photo-372963.jpeg" />
+        </div>
     </div>
-    <div class="link">
-        <a href="https://www.google.com/maps/place/190+Broadway+%23102,+Asheville,+NC+28801/@35.6012704,-82.5574858,17z/data=!3m1!4b1!4m5!3m4!1s0x8859f4a973ae0d97:0x365f9e9fe2104c8b!8m2!3d35.6012704!4d-82.5552971" target="_blank">How To Find Us</a>
+
+    <div id="email-parent">
+        <div id="email-child-form">
+            <form id="email-form">
+                <p>Enter an email address to receive occasional promotions and offers.</p>
+                <section id="promotions">
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" aria-describedby="basic-addon2" id="email">
+                            <span class="input-group-addon" id="basic-addon2">@example.com</span>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </section>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <div id="email-child-image">
+            <img src="images/coffee-house-katerina-pavlickova-145039B.jpg" />
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class='col-sm-6'>
+                <div class="form-group">
+                    <div class='input-group date' id='datetimepicker1'>
+                        <input type='text' class="form-control" />
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+            </script>
+        </div>
     </div>
 
     <footer>
-        <h5>190 Broadway #102, Asheville, NC 28801</h5>
-        <h5>323-897-6654</h5>
-        <h5>crazybeanjuice@something.com</h5>
+        <p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 216-555-5454</p>
+        <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> greatpastriesfound@coffeebeanhouse.com</p>
+        <p>479 Broadview Avenue | 343 King Street East | 568 Jarvis Street</p>
+        <p>Coffee City, OH</p>
+        <p>
+            &copy; Holly N. Little, 2017. All rights reserved. <i class="fa fa-heart" aria-hidden="true"></i>
+        </p>
+
     </footer>
+    <!-- Scripts -->
+    <script src="https://use.fontawesome.com/116c5da17a.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+<!--<div class="container">
+    <ul class="icons">
+        <li><a href="https://twitter.com/hollyintech" class="fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.facebook.com/holly.little.3990" class="fa-facebook"><span class="label">Facebook</span></a></li>
+        <li><a href="https://github.com/HollyNLittle" class="fa-github"><span class="label">GitHub</span></a></li>
+        <li><a href="https://www.instagram.com/HollyisAlwaysHopeful/" class="fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="https://www.linkedin.com/in/hollynlittle/" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://www.pinterest.com/HollyisAlwaysHopeful/" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+    </ul>
+</div>-->
